@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="NextNovel.UserControl1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NextNovel"
+             mc:Ignorable="d" 
+               d:DesignHeight="70" d:DesignWidth="375">
+    <Grid Background="white" HorizontalAlignment="Left" Width="375">
+
+        <Image Name ="temp" Source ="{Binding Image}" Margin="10,10,0,0" Width="44" HorizontalAlignment="Left" VerticalAlignment="Top" Height="45"/>
+
+        <TextBox Margin="70,11,77,35"  TextWrapping="Wrap" FontWeight="Bold" FontSize="15" Language="en-ca" Text="{Binding Title}" Background="Transparent" BorderBrush="Transparent" IsReadOnly="True"/>
+        <TextBox Margin="70,35,97,8"  TextWrapping="Wrap" FontWeight="Normal" FontSize="12" Language="en-ca" Text="{Binding Author}" Background="Transparent" BorderBrush="Transparent" IsReadOnly="True"/>
+
+
+
+        <Image x:Name="ViewMore" Source="/Images/Image1.jpg" Height="42" Width="49" Margin="293,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center"  />
+        <Rectangle HorizontalAlignment="Center" Height="1" Margin="0,67,0,0" Stroke="Gray" VerticalAlignment="Top" Width="317" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+
+    </Grid>
+</UserControl>

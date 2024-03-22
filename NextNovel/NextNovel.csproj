@@ -9,10 +9,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\Account.jpg" />
+    <None Remove="Images\Book.jpg" />
+    <None Remove="Images\Heart.jpg" />
+    <None Remove="Images\Home.jpg" />
+    <None Remove="Images\Image1.jpg" />
     <None Remove="Images\Logo.jpg" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Images\Account.jpg" />
+    <Resource Include="Images\Book.jpg" />
+    <Resource Include="Images\Heart.jpg" />
+    <Resource Include="Images\Home.jpg" />
+    <Resource Include="Images\Image1.jpg" />
     <Resource Include="Images\Logo.jpg">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
