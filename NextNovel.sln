@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NextNovel", "NextNovel\Next
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IteratorDesignPattern", "IteratorDesignPattern\IteratorDesignPattern.vcxproj", "{98D20C9E-3427-452A-901D-62A7BEA2C903}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ObserverDesignPattern", "ObserverDesignPattern\ObserverDesignPattern.vcxproj", "{B2633763-DCE9-41FC-9B34-A065F0C21A8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,18 @@ Global
 		{98D20C9E-3427-452A-901D-62A7BEA2C903}.Release|x64.Build.0 = Release|x64
 		{98D20C9E-3427-452A-901D-62A7BEA2C903}.Release|x86.ActiveCfg = Release|Win32
 		{98D20C9E-3427-452A-901D-62A7BEA2C903}.Release|x86.Build.0 = Release|Win32
+		{B2633763-DCE9-41FC-9B34-A065F0C21A8C}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{B2633763-DCE9-41FC-9B34-A065F0C21A8C}.Debug|Any CPU.Build.0 = Debug|x64
+		{B2633763-DCE9-41FC-9B34-A065F0C21A8C}.Debug|x64.ActiveCfg = Debug|x64
+		{B2633763-DCE9-41FC-9B34-A065F0C21A8C}.Debug|x64.Build.0 = Debug|x64
+		{B2633763-DCE9-41FC-9B34-A065F0C21A8C}.Debug|x86.ActiveCfg = Debug|Win32
+		{B2633763-DCE9-41FC-9B34-A065F0C21A8C}.Debug|x86.Build.0 = Debug|Win32
+		{B2633763-DCE9-41FC-9B34-A065F0C21A8C}.Release|Any CPU.ActiveCfg = Release|x64
+		{B2633763-DCE9-41FC-9B34-A065F0C21A8C}.Release|Any CPU.Build.0 = Release|x64
+		{B2633763-DCE9-41FC-9B34-A065F0C21A8C}.Release|x64.ActiveCfg = Release|x64
+		{B2633763-DCE9-41FC-9B34-A065F0C21A8C}.Release|x64.Build.0 = Release|x64
+		{B2633763-DCE9-41FC-9B34-A065F0C21A8C}.Release|x86.ActiveCfg = Release|Win32
+		{B2633763-DCE9-41FC-9B34-A065F0C21A8C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
